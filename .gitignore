@@ -5,3 +5,4 @@ archive/anomaly/Anomaly_Dataset/Anomaly_Videos/ReadMe-Anomaly-Detection.txt
 archive/anomaly/Anomaly_Dataset/Anomaly_Videos/Temporal_Anomaly_Annotation_for_Testing_Videos.txt
 archive/Anomaly_Dataset/Anomaly_Videos/ReadMe-Anomaly-Detection.txt
 archive/Anomaly_Dataset/Anomaly_Videos/Temporal_Anomaly_Annotation_for_Testing_Videos.txt
+resnet-34-kinetics.pth
