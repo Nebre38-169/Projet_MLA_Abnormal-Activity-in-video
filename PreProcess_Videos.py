@@ -218,8 +218,8 @@ abnormal_features_dir = parent_dir + '/Features/Abnormal/'
 normal_features_dir = parent_dir + '/Features/Normal/'
 
 #files which contains the names of the videos using for the trainng
-train_abnormal_split = parent_dir + '/Dataset' + '/UCF_Crimes-Train-Test-Split' + '/Anomaly_Detection_splits' + '/Abnormal_Train.txt'
-train_normal_split = parent_dir + '/Dataset' + '/UCF_Crimes-Train-Test-Split' + '/Anomaly_Detection_splits' + '/Normal_Train.txt'
+train_abnormal_split = parent_dir + '/Abnormal_Train.txt'
+train_normal_split = parent_dir + '/Normal_Train.txt'
 
 
 #extract feature of all abnormal videos
