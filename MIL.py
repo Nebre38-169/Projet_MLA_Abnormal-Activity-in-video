@@ -1,5 +1,5 @@
 import tensorflow as tf 
-
+import numpy as np
 
 def custom_objective(y_true, y_pred):
 
@@ -37,7 +37,14 @@ def custom_objective(y_true, y_pred):
         max_scores_list.append(max(video_predictions))
         sparsity_constrains_list.append(sum(video_predictions))
         
-    score_positive_groupe_desc = y_pred[0:n_exp].sort(reverse = True) #probleme sort ne sapplique pas à un tenseur
+    #Creation du tenseur de la liste des scores du groupe positif par ordre décroissant
+    liste_score_positive_group = y_pred[0:n_exp].numpy()
+    liste_score_positive_group_asc = np.sort(liste_score_positive_group)
+    liste_score_positive_group_dsc = liste_score_positive_group_asc[::-1]
+    score_positive_groupe_desc = tf.stack(liste_score_positive_group_dsc)
+    
+    
+    score_positive_groupe_desc = tf.stack(liste_score_positive_group_dsc)
     max_scores = tf.stack(max_scores_list)
     min_scores = tf.stack(min_scores_list)
     temporal_constrains = tf.stack(temporal_constrains_list)
