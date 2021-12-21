@@ -19,8 +19,8 @@ def custom_objective(y_true, y_pred):
     l3_list = []
     l4_list = []
     
-    mu1 = 0.00004
-    mu2 = 0.00004
+    mu1 = 0.00008
+    mu2 = 0.00008
 
     for i in range(0, n_exp, 1):
         
