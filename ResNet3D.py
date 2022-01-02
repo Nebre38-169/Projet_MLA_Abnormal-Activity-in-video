@@ -2,8 +2,10 @@
 """
 Created on Tue Nov 23 19:13:59 2021
 
-@author: sofia
+@author: sofiane
 """
+
+#reference: https://github.com/kenshohara/3D-ResNets-PyTorch
 
 import torch
 import torch.nn as nn
