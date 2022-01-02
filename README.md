@@ -1,29 +1,60 @@
-# Projet_MLA_Abnormal-Activity-in-video
+# 3D ResNet with Ranking Loss Function for Abnormal Activity Detection in Videos
+Simple overview of use
 
-#Comment utiliser Git et Github ?
+## Description
 
-Git est un gestionnaire de version et Github est un gestionnaire de dépot.
-Les deux marches ensembles et permettent de suivre les évolutions d'un projet
-et de travailler ensemble sans se gener.
+This project consisted in reproducing the results obtained by Shikha Dubey, Abhijeet Boragule,
+Moongu Jeon <https://arxiv.org/abs/2002.01132>
 
-Pour utiliser Github, juste rendez-vous sur le site de github.com et connectez vous.
-Pour utiliser git, commencer par télécharger le logiciel à l'adresse : https://git-scm.com/download/win
-Installer le sur votre machine.
+## Getting Started
 
-Pour avoir acces au fichier sur votre machine, ouvrez l'explorateur de fichier et trouver le dossier dans lequel 
-vous voulez stocker les fichiers. faites clic droit dans ce dossier et cliquez sur l'option "Git bash here".
+### Dependencies
 
-Ensuite vous allez vous connecetez à votre compte github depuis git avec la commande "git config --global user.name [pseudo]" 
-et "git config --global user.email [email]".
-Pour récuperer le contenue du git, faites : "git clone [address]". L'adresse du git est trouvable sur le bouton vert au dessus des fichiers.
+* Tensorflow
+* numpy
 
-A ce moment la vous avez la dernière version du dépot sur votre machine. Si vous faite des modifications et que vous voulez les enregistrer, faites 
-"git add ." pour ajouter les fichiers au prochain commit, puis "git commit". votre éditeur de texte s'ouvre et il faut alors décrire au mieux ce que 
-vous ajoutez au dépot.
+### Installing
 
-Pour envoyer les modifications au dépot distant (github), on va commencer par parametrer le dépot distant avec "git remote add [nom] [address]"
-Mettez le nom que vous voulez mais l'adresse est la même que pour git clone.
-Pour envoyer vos modifications, vous faites "git push [nom]" et cela envoye les derniers commit que vous avez fait qui ne sont pas encore sur le dépot distant.
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-Attention ! la dernière commande ne s'execute que si vous êtes vous même à jour sur les modifications.
-Pour mettre à jour votre dépot local, vous faites "git pull [nom]".
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+
+
+* Pichereau Victorien : victorien.pichereau@ensam.eu
+* Bouzidi Sofiane : sofiane.bouzidi@hotmail.fr
+* Doste Antoine : antoine.doste@ensam.eu
+* Mbaira Laila : laila.mbaira@ensam.eu
+
+## Acknowledgments
+
+
+<https://arxiv.org/abs/2002.01132>
+
+<https://arxiv.org/pdf/1801.04264.pdf>
+
+<https://arxiv.org/abs/1705.06950>
+
+<https://image-net.org/challenges/LSVRC/>
+
+<https://arxiv.org/pdf/1708.07632v1.pdf>
+
+<https://paperswithcode.com/paper/real-world-anomaly-detection-in-surveillance>
+
+
