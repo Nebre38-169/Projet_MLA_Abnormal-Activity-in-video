@@ -10,8 +10,11 @@ Moongu Jeon <https://arxiv.org/abs/2002.01132>
 
 ### Dependencies
 
-* Tensorflow
+* Tensorflow (2.7.0)
+* Torch (1.6.0), only if you want to extract features but you can download our features in folder /Features
 * numpy
+* scikit-learn
+* scipy
 
 ### Installing
 
