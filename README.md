@@ -4,7 +4,7 @@ Simple overview of use
 ## Description
 
 This project consisted in reproducing the results obtained by Shikha Dubey, Abhijeet Boragule,
-Moongu Jeon <https://arxiv.org/abs/2002.01132>. It consists to use the model ResNet3D pre-trained in the Kinetics dataset as features extractor of the videos from UCF-Crime dataset and implement a neural network to predict anomaly behaviour in videos. The new approach that consists to use Multiple Instance Learning allows to predict temporal anomaly behaviour (in frame-level) without using frame-level labels in the training, only by using video-level labels (video is annotated abnormal or normal). Moreover with a new ranking loss, the false alarm rate in abnormal videos are reduced.
+Moongu Jeon <https://arxiv.org/abs/2002.01132>. It consists to use the model ResNet3D pre-trained in the Kinetics dataset as features extractor of the videos from UCF-Crime dataset and implement a neural network to predict anomaly behaviour in videos. The new approach that consists to use Multiple Instance Learning allows to predict temporal anomaly behaviour (in frame-level) without using frame-level labels in the training, only by using video-level labels (video is annotated abnormal or normal). Moreover with a new ranking loss, the false alarm rate in abnormal videos is reduced.
 
 ## Getting Started
 
