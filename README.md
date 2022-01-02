@@ -11,7 +11,7 @@ Moongu Jeon <https://arxiv.org/abs/2002.01132>. It consists to use the model Res
 ### Dependencies
 
 * Tensorflow (2.7.0)
-* pytorch (1.6.0), only if you want to extract features with ResNet3D from (https://github.com/kenshohara/3D-ResNets-PyTorch) but you can download our features in folder /Features.
+* pytorch (1.6.0), only if you want to extract features with ResNet3D from (https://github.com/kenshohara/3D-ResNets-PyTorch) but you can download our features from the folder /Features.
 * numpy
 * scikit-learn
 * scipy
