@@ -4,7 +4,7 @@ Simple overview of use
 ## Description
 
 This project consisted in reproducing the results obtained by Shikha Dubey, Abhijeet Boragule,
-Moongu Jeon <https://arxiv.org/abs/2002.01132>
+Moongu Jeon <https://arxiv.org/abs/2002.01132>. It consists to use the model ResNet3D pre-trained in the Kinetics dataset as features extractor of the videos from UCF-Crime dataset and implement a neural network to predict anomaly behaviour in videos.
 
 ## Getting Started
 
