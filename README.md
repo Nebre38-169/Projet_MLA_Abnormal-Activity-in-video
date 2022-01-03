@@ -31,12 +31,11 @@ In our work, we load this pre-trained model in the script ResNet3D.py and use it
 3) then you have to separate the file Temporal_Anomaly_Annotation_for_Testing_Videos.txt in temporal_annotation_normal_videos.txt and temporal_annotation_normal_videos.txt.
 
 
-
-
-
 ### Executing program
 
 * To run our project, just execute the Notebook Demo.ipynb
+
+* The weights of our trained model are located in checkpoint.zip. You can load the weights and evaluate/test our model.
 
 
 ## Authors
